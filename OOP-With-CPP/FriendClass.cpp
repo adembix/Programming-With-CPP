@@ -13,7 +13,7 @@ public:
 class clsEmployee : public clsPerson {
 public:
     void varPrint(){
-        cout << var1 << endl; //  accessible private member for base class
+        cout << var1 << endl; //  accessible private member for the base class
     }
 };
 
